@@ -1,0 +1,67 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: "Viaoda Libre", cursive;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#intro {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20vh;
+}
+
+.font-20 {
+	font-size: 20px;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(172, 172, 172);
+	border-radius: 10px;
+}
+
+#animated_background {
+	height: 100vh;
+	width: 100vw;
+}
+
+#pro1 {
+	height: 100%;
+	width: 100%;
+}
+
+.card {
+	width: 100%;
+}
+
+.social {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.fa-brands {
+	margin: 40px;
+}
+
+#project_link {
+	display: flex;
+}
